@@ -48,3 +48,47 @@ h1{
     grid-row-start: 1;
     grid-row-end: 2;
 }
+.miembro{
+    display: grid;
+    grid-template-columns: 1fr 2fr;  
+    margin: 25px;
+    align-items: center;
+}
+
+.miembro img {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    width: 60%;
+    margin-left: 0.5rem;
+}
+
+.infomiembro {
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+
+.infomiembro h3 {
+    margin: 0;
+    font-size: 1.5rem;
+}
+
+.infomiembro p {
+    margin: 0.5rem 0 0;
+    font-size: 1rem;
+}
+.disco{
+    display: grid;
+    grid-template-columns: 1fr 2fr;  
+    margin: 25px;
+    align-items: center;
+}
+.disco img{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    width: 60%;
+    margin-left: 0.5rem;
+}
+.infodisco{
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
