@@ -102,6 +102,7 @@ h1{
     height: auto;
     grid-template-rows: 3;
     grid-template-columns: 2;
+    gap: 15px;
 
 }
 .foto1{
