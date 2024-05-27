@@ -22,29 +22,31 @@
     </header>
     <hr>
     <main>
-        <h2>Si queres ponerte en contacto con nosotros completa el siguiente formulario:</h2>
-        <section>
-            <form action="" method="post" enctype="">
-                <div>
-                     <label for="nombre">Nombre:</label>
-                         <input type="text" name="nombre" id="nombre">
-                 </div>
-                 <div>
-                     <label for="email">Correo electronico:</label>
-                         <input type="email" name="email" id="email">
-                 </div>
-                 <div>
-                     <label for="telefono">Telefono:</label>
-                         <input type="tel" name="telefono" id="telefono">
-                 </div>
-                 <div>
-                     <label for="razon">Razón de contacto:</label>
-                         <textarea name="razon" id="razon"></textarea>
-                 <div>
-                     <input type="submit">
-                 </div>    
-             </form>          
-        </section>
+        <h2 class="margen">Si queres ponerte en contacto con nosotros completa el siguiente formulario:</h2>
+        <div class="contenedorcontacto">
+            <form class="form-grid">
+                <div class="form-item">
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" id="nombre" name="nombre">
+                </div>
+                <div class="form-item">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email">
+                </div>
+                <div class="form-item">
+                    <label for="telefono">Teléfono:</label>
+                    <input type="tel" id="telefono" name="telefono">
+                </div>
+                <div class="form-item">
+                    <label for="mensaje">Mensaje:</label>
+                    <textarea id="mensaje" name="mensaje"></textarea>
+                </div>
+                <div class="form-item">
+                    <button type="submit">Enviar</button>
+                </div>
+            </form>
+        </div>
+    
     </main>
 </body>
 </html>
