@@ -304,9 +304,23 @@ a:visited {
     border-top: 1px solid #ccc; /* Estilo del divisor */
     margin: 5px 0; /* Espaciado entre el divisor y los elementos de la barra de navegación */
   }
-  a{
+a{
     color: #276c7d !important;
   }
 ion-icon{
     font-size: 30px;
 }
+@media  (max-width: 768px){
+    .navbarbs {
+        flex-direction: column; /* Cambia la dirección del flexbox a columna */
+        align-items: center; /* Centra los elementos horizontalmente */
+    }
+    .navbarbs li {
+        font-size: 20px; /* Reduce el tamaño de la fuente */
+        margin-bottom: 10px; /* Agrega un espacio entre los elementos */
+    }
+    .titulobs {
+        margin: 20px; /* Reduce el margen superior para el título */
+    }
+}
+    
