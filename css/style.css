@@ -307,3 +307,6 @@ a:visited {
   a{
     color: #276c7d !important;
   }
+ion-icon{
+    font-size: 30px;
+}
