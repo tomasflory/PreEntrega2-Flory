@@ -221,8 +221,8 @@ a:visited {
     margin: 75px;
 }
 .navbar-divider {
-    border-top: 1px solid #ccc; /* Estilo del divisor */
-    margin: 5px 0; /* Espaciado entre el divisor y los elementos de la barra de navegación */
+    border-top: 1px solid #ccc; 
+    margin: 5px 0; 
   }
 a{
     color: #276c7d !important;
@@ -232,15 +232,17 @@ ion-icon{
 }
 @media  (max-width: 768px){
     .navbarbs {
-        flex-direction: column; /* Cambia la dirección del flexbox a columna */
-        align-items: center; /* Centra los elementos horizontalmente */
+        flex-direction: column; 
+        align-items: center; 
     }
     .navbarbs li {
-        font-size: 20px; /* Reduce el tamaño de la fuente */
-        margin-bottom: 10px; /* Agrega un espacio entre los elementos */
+        font-size: 20px;
+        margin-bottom: 10px; 
     }
     .titulobs {
-        margin: 20px; /* Reduce el margen superior para el título */
+        margin: 20px; 
     }
 }
-    
+.navbarbs a:hover{
+    background-color: rgb(70, 70, 70);
+}
