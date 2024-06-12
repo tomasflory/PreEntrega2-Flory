@@ -1,70 +1,106 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-bs-theme="dark">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kriett</title>
-    <link rel="stylesheet" href="../css/style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kriett</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&family=Metal+Mania&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../css/styles.css">
 </head>
 <body>
-    <header>
-        <h1 class="titulo">Kriett</h1>
-        <div class="navbar-divider"></div>
-        <nav class="navbar">
-            <ul>
-                <li><a href="../index.html">Inicio</a></li>
-                <li>La Banda</li>
-                <li><a href="discografia.html">Discografia</a></li>
-                <li><a href="contacto.html">Contacto</a></li>
-                <li><a href="galeria.html">Galería</a></li>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Kriett</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" href="../index.html">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">La Banda</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="discografia.html">Discografía</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="tours.html">Proximos eventos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contacto.html">Contacto</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="galeria.html">Galería</a>
+              </li>
             </ul>
-        </nav>
-    </header>
-    <div class="navbar-divider"></div>
-    <main>
-        <h2 class="margen">Conoce a los integrantes</h2>
-        <section class="labanda">
-            <div class="miembro">
-                <img src="../assets/lucas.jpg" alt="Foto primer plano de Lucas">
-                <div class="infomiembro">
-                    <h3>Lucas</h3>
-                    <p class="texto">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Harum ex iste ipsam reiciendis explicabo maiores placeat fugit itaque quaerat architecto. Tempora minus delectus fugit incidunt rem, numquam eligendi dolorum dicta?</p>
-                </div>
+          </div>
+        </div>
+    </nav>
+  <main>
+    <section class="main">
+      <div class="row h-100 d-flex justify-content-center align-items-center">
+        <div class="col-md-6">
+          <h1>Conoce a la Banda: Los Rostros Detrás de la Música</h1>
+        </div>
+        <div class="col-md-6">
+          <p>Desde sus inicios, la banda se ha destacado por su energía en el escenario y su capacidad para conectar con el público. Cada miembro aporta una perspectiva única que enriquece el sonido del grupo. Lucas Caveda, con su poderosa voz y carisma, lidera la banda en cada presentación. Nahuel Benitez, el fundador y bajista, es el alma creativa detrás de muchas de las composiciones, combinando riffs contundentes con melodías complejas. Federico Cando, como guitarrista, añade profundidad y dinamismo a cada canción, mientras que Santiago McKenny, conocido como Yankee, en la batería, proporciona la intensidad y precisión que impulsan a la banda hacia adelante.</p>
+        </div>
+      </div>
+    </section>    
+      <section id="miembros">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6">
+              <div class="miembro">
+                <img src="../assets/crlucascantando.jpg" alt="Imagen en primer plano de Lucas cantando" class="img-responsive">
+                <h2>Lucas</h2>
+                <p>Vocalista</p>
+                <p>Conocido por su poderosa voz y presencia escénica, Lucas Caveda es el vocalista principal de la banda. Desde joven, se vio influenciado por íconos del Heavy Metal y el Nu Metal, lo que se refleja en su versatilidad vocal. Lucas se unió a la banda en sus inicios y ha sido clave en la composición de letras profundas y emotivas. Fuera del escenario, es un apasionado del cine de terror y la literatura fantástica.</p>
+              </div>
             </div>
-            <hr>
-            <div class="miembro">
-                <img src="../assets/yankee.jpg" alt="Foto primer plano de Yankee">
-                <div class="infomiembro">
-                    <h3>Yankee</h3>
-                    <p class="texto">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Harum ex iste ipsam reiciendis explicabo maiores placeat fugit itaque quaerat architecto. Tempora minus delectus fugit incidunt rem, numquam eligendi dolorum dicta?</p>
-                </div>
+            <div class="col-md-6">
+              <div class="miembro">
+                <img src="../assets/cryankee.jpg" alt="Primer plano de Yankee sentado en la batería" class="img-responsive">
+                <h2>Yankee</h2>
+                <p>Baterista</p>
+                <p>Yankee, el apodo por el cual es conocido Santiago McKenny, es el baterista de la banda. Su precisión y energía en la batería son cruciales para el sonido potente del grupo. Con una formación en percusión que abarca desde el rock hasta el metal progresivo, Yankee aporta una versatilidad rítmica única. Fuera de la música, es un entusiasta de la cocina y el diseño gráfico.</p>
+              </div>
             </div>
-            <hr>
-            <div class="miembro">
-                <img src="../assets/nahuel.jpg" alt="Foto primer plano de Nahuel">
-                <div class="infomiembro">
-                    <h3>Nahuel</h3>
-                    <p class="texto">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Harum ex iste ipsam reiciendis explicabo maiores placeat fugit itaque quaerat architecto. Tempora minus delectus fugit incidunt rem, numquam eligendi dolorum dicta?</p>
-                </div>
+          </div>
+          <div class="row">
+            <div class="col-md-6">
+              <div class="miembro">
+                <img src="../assets/crfederico.jpg" alt="Foto de Federico tocando la guitarra" class="img-responsive">
+                <h2>Federico</h2>
+                <p>Guitarrista</p>
+                <p>Federico Cando aporta profundidad y técnica a la banda como segundo guitarrista. Su habilidad para crear melodías complejas y solos electrizantes lo han convertido en una pieza fundamental del grupo. Influenciado por guitarristas legendarios, Federico ha desarrollado un estilo propio que combina técnica y emoción. En su tiempo libre, le gusta la fotografía y el senderismo.</p>
+              </div>
             </div>
-            <hr>
-            <div class="miembro">
-                <img src="../assets/federico.jpg" alt="Foto primer plano de Federico">
-                <div class="infomiembro">
-                    <h3>Federico</h3>
-                    <p class="texto">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Harum ex iste ipsam reiciendis explicabo maiores placeat fugit itaque quaerat architecto. Tempora minus delectus fugit incidunt rem, numquam eligendi dolorum dicta?</p>
-                </div>
+            <div class="col-md-6">
+              <div class="miembro">
+                <img src="../assets/nahuelwide.jpg" alt="Primer plano de Nahuel" class="img-responsive">
+                <h2>Nahuel</h2>
+                <p>Bajista</p>
+                <p>Fundador de la banda y bajista, Nahuel Benitez es el motor creativo detrás del grupo. Su amor por el Heavy Metal clásico y moderno le ha permitido fusionar diferentes estilos en sus composiciones. Nahuel comenzó su carrera musical en varias bandas locales antes de formar este proyecto. Además de la música, disfruta de la historia antigua y los videojuegos retro.</p>
+              </div>
             </div>
-        </section>
-    </main>
-    <div class="navbar-divider"></div>
-    <footer class="margen">
-        <p class="texto">Pagina sin fines de lucro</p>
-        <a href="https://www.youtube.com/@kriett"><ion-icon name="logo-youtube"></ion-icon></a>
-        <a href="https://open.spotify.com/artist/4sJHL6xW04Ly4l7eyIdZRJ"><ion-icon name="filter-circle"></ion-icon></a>
-        <a href="https://www.instagram.com/kriett_/"><ion-icon name="logo-instagram"></ion-icon></a>
-    </footer>
-    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
-    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+          </div>
+        </div>
+      </section>
+  </main>
+  <footer>
+        <p>Síguenos en:</p>
+        <div class="social">
+            <a href="#">Youtube</a>
+            <a href="#">Instagram</a>
+            <a href="#">Spotify</a>
+        </div>
+      </footer>
 </body>
 </html>

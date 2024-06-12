@@ -1,53 +1,118 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-bs-theme="dark">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kriett</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Metal+Mania&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./css/style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kriett</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&family=Metal+Mania&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="./css/styles.css">
 </head>
 <body>
-    <header>
-        <h1 class="titulo">Kriett</h1>
-        <div class="navbar-divider"></div>
-        <nav class="navbar">
-            <ul>
-                <li>Inicio</li>
-                <li><a href="./pages/labanda.html">La Banda</a></li>
-                <li><a href="./pages/discografia.html">Discografía</a></li>
-                <li><a href="./pages/contacto.html">Contacto</a></li>
-                <li><a href="./pages/galeria.html">Galería</a></li>
-            </ul>
-        </nav>
-    </header>
-    <div class="navbar-divider"></div>
-    <main>
-        <div class="grid">
-            <div class="infoleft">
-                <p class="texto">Banda de Heavy Metal creada el 18 de mayo de 2016 por Nahuel Benitez, actualmente formada por Santiago McKenny, Nahuel Benitez, Lucas Caveda, Federico Cando, que busca mezclar distintas épocas de la historia del Heavy Metal, influenciados por bandas que van desde Black Sabbath, Iron Maiden, Metallica, entre otras, pasando por Linkin Park o Slipknot hasta llegar a la modernidad de Periphery y Architects, condensando todo con un toque personal para así poder llevar el Heavy Metal nacional a otros países del mundo. Además de su talento musical, la banda se destaca por sus letras profundas y emotivas que abordan temas universales como la lucha interna, la resistencia y la superación personal.</p>
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Kriett</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./pages/labanda.html">La Banda</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./pages/discografia.html">Discografía</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./pages/tours.html">Proximos eventos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./pages/contacto.html">Contacto</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./pages/galeria.html">Galería</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <section class="home">
+    <h1>Kriett</h1>
+    <h2>Forjando el metal</h2>
+    <a href="https://open.spotify.com/artist/4sJHL6xW04Ly4l7eyIdZRJ" type="button" class="btn btn-danger">Escucha ahora</a>
+  </section>
+
+  <section class="commoncenter">
+    <h3>Acerca de nosotros</h3>
+    <p>Banda de Heavy Metal creada el 18 de mayo de 2016 por Nahuel Benitez, actualmente formada por Santiago McKenny, Nahuel Benitez, Lucas Caveda, Federico Cando, que busca mezclar distintas épocas de la historia del Heavy Metal, influenciados por bandas que van desde Black Sabbath, Iron Maiden, Metallica, entre otras, pasando por Linkin Park o Slipknot hasta llegar a la modernidad de Periphery y Architects, condensando todo con un toque personal para así poder llevar el Heavy Metal nacional a otros países del mundo.</p>
+    <div class="container">
+      <div class="row mt-3 mb-3">
+        <div class="col">
+          <div class="card mx-auto" style="width: 50%;">
+            <img src="./assets/lucas.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Lucas</h5>
+              <p class="card-text">Vocalista</p>
             </div>
-            <div class="infodown">
-                <p class="texto">En 2021, la banda lanzó un documental titulado "Forjando el Metal", que narra su viaje desde los inicios humildes en pequeños bares locales hasta sus primeras giras internacionales. Este documental no solo muestra la evolución musical de la banda, sino que también ofrece una mirada íntima a la vida personal de cada miembro, sus desafíos y sus victorias. La banda también es conocida por su fuerte conexión con sus fans. A través de campañas en redes sociales y encuentros virtuales, han construido una comunidad leal y apasionada. Han realizado colaboraciones con otros artistas del género y han participado en festivales de música en Europa y América Latina, consolidando su reputación como embajadores del metal argentino en el mundo.</p>
-            </div>
-            <div class="imagenindex">
-                <img src="./assets/kriettindex.jpeg" alt="Foto de los miembros de la banda tocando en Casa Rincon">
-            </div>
-            <div class="diviframe">
-                <iframe width="540" height="275" src="https://www.youtube.com/embed/PjjujsS9GZc?si=JEUqbFYnVMjO93NV" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-            </div>
+          </div>
         </div>
-    </main>
-    <div class="navbar-divider"></div>
-    <footer class="margen">
-        <p class="texto">Pagina sin fines de lucro</p>
-        <a href="https://www.youtube.com/@kriett"><ion-icon name="logo-youtube"></ion-icon></a>
-        <a href="https://open.spotify.com/artist/4sJHL6xW04Ly4l7eyIdZRJ"><ion-icon name="filter-circle"></ion-icon></a>
-        <a href="https://www.instagram.com/kriett_/"><ion-icon name="logo-instagram"></ion-icon></a>
-    </footer>
-    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
-    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+        <div class="col">
+          <div class="card mx-auto" style="width: 50%;">
+            <img src="./assets/yankee.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Yankee</h5>
+              <p class="card-text">Baterista</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <div class="card mx-auto" style="width: 50%;">
+            <img src="./assets/federico.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Federico</h5>
+              <p class="card-text">Guitarrista</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card mx-auto" style="width: 50%;">
+            <img src="./assets/nahuel.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+            <h5 class="card-title">Nahuel</h5>
+            <p class="card-text">Bajista</p>
+          </div>
+        </div>
+  </section>
+
+  <section class="commoncenter">
+    <h3>Nuestra musica</h3>
+    <iframe style="border-radius:12px" src="https://open.spotify.com/embed/album/01E86N7XNjNAvyC9r57SGd?utm_source=generator&theme=0" width="50%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+  </section>
+
+  <section class="commoncenter">
+    <h3>Proximos eventos</h2>
+    <ul>
+      <li>
+        <p>10/7/2024-Casa Rincon-CABA</p>
+      </li>
+    </ul>
+  </section>
+
+  <footer>
+    <p>Síguenos en:</p>
+    <div class="social">
+        <a href="#">Youtube</a>
+        <a href="#">Instagram</a>
+        <a href="#">Spotify</a>
+    </div>
+  </footer>
 </body>
 </html>
