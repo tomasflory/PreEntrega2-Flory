@@ -7,10 +7,9 @@
 .button::before {
   content: "";
   position: absolute;
-  width: 200%;
+  width: 100%;
   height: 100%;
   border-radius: inherit;
-  overflow: hidden;
 }
 
 .button {
@@ -33,6 +32,11 @@
     box-shadow: 0 0 0 45px rgba(193, 244, 246, 0);
   }
 }
+.card-hover:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s ease;
+}
+
 body {
   background-color: black;
   margin: 0;
