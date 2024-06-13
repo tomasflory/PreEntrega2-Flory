@@ -40,6 +40,7 @@ $button-background-end: #ff2600;
   box-shadow: rgba(193, 244, 246, 0.698) 0px 0px 0px 0px;
   animation: 1.2s cubic-bezier(0.8, 0, 0, 1) 0s infinite normal none running pulse;
   border: 0;
+  overflow: hidden;
 
   &:hover, &:focus {
     transform: scale(1.2);
@@ -58,6 +59,7 @@ body {
   background-color: black;
   margin: 0;
   padding: 0;
+  height: 100%;
 }
 
 .home {

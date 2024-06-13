@@ -7,9 +7,10 @@
 .button::before {
   content: "";
   position: absolute;
-  width: 100%;
+  width: 200%;
   height: 100%;
   border-radius: inherit;
+  overflow: hidden;
 }
 
 .button {
@@ -21,6 +22,7 @@
   box-shadow: rgba(193, 244, 246, 0.698) 0px 0px 0px 0px;
   animation: 1.2s cubic-bezier(0.8, 0, 0, 1) 0s infinite normal none running pulse;
   border: 0;
+  overflow: hidden;
 }
 .button:hover, .button:focus {
   transform: scale(1.2);
@@ -35,6 +37,7 @@ body {
   background-color: black;
   margin: 0;
   padding: 0;
+  height: 100%;
 }
 
 .home {
@@ -104,6 +107,11 @@ footer {
 .main p {
   font-size: 1.5em;
   font-family: "Times New Roman", Times, serif;
+}
+@media screen and (max-width: 768px) {
+  .main {
+    margin-bottom: 750px;
+  }
 }
 
 .center {
