@@ -3,6 +3,9 @@ $primary-color: #276c7d;
 $secondary-color: #333;
 $button-background-start: #ff8200;
 $button-background-end: #ff2600;
+$scale-factor: 1.05;
+$transition-duration: 0.3s;
+$transition-timing-function: ease;
 
 // Mixins
 @mixin flex-center {
@@ -51,6 +54,14 @@ $button-background-end: #ff2600;
 @keyframes pulse {
   100% {
     box-shadow: 0 0 0 45px rgba(193, 244, 246, 0);
+  }
+}
+
+// Cards Animation
+.card-hover {
+  &:hover {
+    transform: scale($scale-factor); // Agranda la tarjeta al 105% usando la variable
+    transition: transform $transition-duration $transition-timing-function; // Transición suave
   }
 }
 
