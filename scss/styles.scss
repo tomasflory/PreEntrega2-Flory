@@ -100,7 +100,45 @@ footer {
     font-family: 'Times New Roman', Times, serif
   }
   @media screen and (max-width: 768px) {
+    margin-bottom: 100px; 
+  }
+}
+
+.lbmain {
+  margin: 20px;
+  height: 100vh;
+
+  h1 {
+    font-size: 4em;
+    @include font-metal-mania;
+    color: $primary-color;
+  }
+
+  p {
+    font-size: 1.5em;
+    font-family: 'Times New Roman', Times, serif
+  }
+  @media screen and (max-width: 768px) {
     margin-bottom: 750px; 
+  }
+}
+
+.dmain {
+  margin: 20px;
+  height: 100vh;
+
+  h1 {
+    font-size: 4em;
+    @include font-metal-mania;
+    color: $primary-color;
+  }
+
+  p {
+    font-size: 1.5em;
+    font-family: 'Times New Roman', Times, serif
+  }
+  @media screen and (max-width: 768px) {
+    margin-bottom: 550px; 
   }
 }
 

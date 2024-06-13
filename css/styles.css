@@ -80,7 +80,47 @@ footer {
 }
 @media screen and (max-width: 768px) {
   .main {
+    margin-bottom: 100px;
+  }
+}
+
+.lbmain {
+  margin: 20px;
+  height: 100vh;
+}
+.lbmain h1 {
+  font-size: 4em;
+  font-family: "Metal Mania", system-ui;
+  font-weight: 400;
+  color: #276c7d;
+}
+.lbmain p {
+  font-size: 1.5em;
+  font-family: "Times New Roman", Times, serif;
+}
+@media screen and (max-width: 768px) {
+  .lbmain {
     margin-bottom: 750px;
+  }
+}
+
+.dmain {
+  margin: 20px;
+  height: 100vh;
+}
+.dmain h1 {
+  font-size: 4em;
+  font-family: "Metal Mania", system-ui;
+  font-weight: 400;
+  color: #276c7d;
+}
+.dmain p {
+  font-size: 1.5em;
+  font-family: "Times New Roman", Times, serif;
+}
+@media screen and (max-width: 768px) {
+  .dmain {
+    margin-bottom: 550px;
   }
 }
 
