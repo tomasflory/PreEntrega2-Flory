@@ -1,37 +1,3 @@
-.button {
-  width: 30px;
-  height: 30px;
-  border-radius: 50%;
-  transition: all 0.3s ease-in-out;
-}
-.button::before {
-  content: "";
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  border-radius: inherit;
-}
-
-.button {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: #fff;
-  background: linear-gradient(30deg, #ff8200 20%, #ff2600 80%);
-  box-shadow: rgba(193, 244, 246, 0.698) 0px 0px 0px 0px;
-  animation: 1.2s cubic-bezier(0.8, 0, 0, 1) 0s infinite normal none running pulse;
-  border: 0;
-  overflow: hidden;
-}
-.button:hover, .button:focus {
-  transform: scale(1.2);
-}
-
-@keyframes pulse {
-  100% {
-    box-shadow: 0 0 0 45px rgba(193, 244, 246, 0);
-  }
-}
 .card-hover:hover {
   transform: scale(1.05);
   transition: transform 0.3s ease;
@@ -163,6 +129,21 @@ h1 {
 a {
   font-size: 20px;
   font-family: "Times New Roman", Times, serif;
+}
+
+@media (max-width: 767px) {
+  .videos .container .row {
+    flex-direction: column;
+  }
+  .videos .container .row .col-md-6 {
+    width: 100%;
+    padding: 0 15px;
+    box-sizing: border-box;
+  }
+  .videos iframe {
+    width: 100%;
+    height: auto;
+  }
 }
 
 /*# sourceMappingURL=styles.css.map */
